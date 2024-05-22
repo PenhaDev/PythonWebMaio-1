@@ -4,4 +4,8 @@ app = Flask("Olá")
 
 @app.route('/')
 def ola():
-    return render_template('ola.html')
+    return 	render_template('ola.html')
+
+@app.route('/aluno')
+def aluno ():
+    return "Diego, Pedro, "
